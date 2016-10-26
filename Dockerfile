@@ -12,6 +12,8 @@ COPY sources.list /etc/apt/sources.list
 RUN apt-get update \
     && DEBIAN_FRONTEND="noninteractive" \
         apt-get install -y \
+        python-software-properties \
+        software-properties-common \
         ca-certificates \
         curl \
         libpcre3 \
