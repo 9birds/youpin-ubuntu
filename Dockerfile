@@ -2,7 +2,7 @@
 # Ubuntu Dockerfile
 # version 1.0
 #
-FROM ubuntu:14.04
+FROM ubuntu:16.04
 MAINTAINER Leo <jiangwenhua@yoyohr.com>
 
 #Update sources.list
@@ -12,8 +12,6 @@ COPY sources.list /etc/apt/sources.list
 RUN apt-get update \
     && DEBIAN_FRONTEND="noninteractive" \
         apt-get install -y \
-        python-software-properties \
-        software-properties-common \
         ca-certificates \
         curl \
         libpcre3 \
