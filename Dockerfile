@@ -1,8 +1,8 @@
 #
 # Ubuntu Dockerfile
-# version 1.0
+# version 1.1
 #
-FROM ubuntu:14.04
+FROM ubuntu:16.04
 MAINTAINER Leo <jiangwenhua@yoyohr.com>
 
 #Update sources.list
