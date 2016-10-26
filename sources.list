@@ -24,10 +24,10 @@ deb-src http://archive.ubuntu.com/ubuntu/ xenial-updates universe
 ## your rights to use the software. Also, please note that software in 
 ## multiverse WILL NOT receive any review or updates from the Ubuntu
 ## security team.
-deb http://archive.ubuntu.com/ubuntu/ xenial multiverse
-deb-src http://archive.ubuntu.com/ubuntu/ xenial multiverse
-deb http://archive.ubuntu.com/ubuntu/ xenial-updates multiverse
-deb-src http://archive.ubuntu.com/ubuntu/ xenial-updates multiverse
+#deb http://archive.ubuntu.com/ubuntu/ xenial multiverse
+#deb-src http://archive.ubuntu.com/ubuntu/ xenial multiverse
+#deb http://archive.ubuntu.com/ubuntu/ xenial-updates multiverse
+#deb-src http://archive.ubuntu.com/ubuntu/ xenial-updates multiverse
 
 ## N.B. software from this repository may not have been tested as
 ## extensively as that contained in the main release, although it includes
